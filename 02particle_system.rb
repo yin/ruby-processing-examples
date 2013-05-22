@@ -6,7 +6,7 @@
 # Box2D particle system example
 
 load_library :pbox2d
-load_library :particle_system
+require 'PS'
 
 # module PS is a wrapper for java imports, and Boundary and Particle classes
 include PS
@@ -37,7 +37,7 @@ def draw
   if systems.size > 0
     systems.each do |system|
       system.run
-      system.add_particles(box2d, rand(0 .. 2))
+      system.add_particles(box2d, rand(3))
     end
   end
   # Display all the boundaries
