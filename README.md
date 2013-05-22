@@ -1,7 +1,8 @@
-Examples of ruby-processing
-===========================
+=======
+ruby-processing-examples
+========================
 
-Just simple examples I tried with ruby-processing.
+Examples of using Processing from Ruby I tried out.
 
 ### Preparation
 
